@@ -16,3 +16,9 @@ nums2 = [i for i in nums if nums.count(9 < i < 99) == 1]          # второе
 
 print('Список уникальных элементов: ', nums1)
 print('Список уникальных элементов: ', nums2, '\n')
+
+# def double_digit():                                                 # третье решение 
+#     nums = list(map(int, input('Ввод чисел:').split()))
+#     return ' '. join(map(str, filter(lambda i: 9 < abs(i) < 100, nums)))
+
+# print(f'[{double_digit()}]')
